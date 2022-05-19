@@ -20,7 +20,7 @@ function View({ deleteHandler }) {
     }
     getDeck();
     return () => abort.abort();
-  }, []);
+  }, [deckId]);
 
   const deckDeleteHandler = () => {
     deleteHandler(deckId);

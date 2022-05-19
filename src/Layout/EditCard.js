@@ -23,7 +23,7 @@ function EditCard() {
     }
     getDeck();
     return () => abort.abort();
-  }, []);
+  }, [cardId, deckId]);
 
   const changeHandler = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });

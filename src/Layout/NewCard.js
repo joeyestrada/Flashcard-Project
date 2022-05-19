@@ -43,7 +43,7 @@ function NewCard() {
       uploadCard();
       return () => abort.abort();
     }
-  }, [newCard]);
+  }, [newCard, deckId]);
 
   const changeHandler = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
