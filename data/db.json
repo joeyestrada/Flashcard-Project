@@ -43,10 +43,16 @@
       "id": 5
     },
     {
-      "front": "ghfdhgdfhgf",
-      "back": "dhgfdhgfdhgfd",
+      "front": "THIS IS EDITED",
+      "back": "THIS IS ALSO EDITED",
       "deckId": 1,
       "id": 6
+    },
+    {
+      "front": "LOLOLOL",
+      "back": "THIS IS A NEW CARD",
+      "deckId": 1,
+      "id": 7
     }
   ]
 }
